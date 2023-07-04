@@ -76,14 +76,14 @@
 					</execution>
 					<!-- attached to Maven test phase -->
 					<execution>
-						<id>report</id>
+						<id>report1</id>
 						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
 						</goals>
 					</execution>
 					<execution>
-						<id>report1</id>
+						<id>report</id>
 						<goals>
 							<goal>report</goal>
 						</goals>
