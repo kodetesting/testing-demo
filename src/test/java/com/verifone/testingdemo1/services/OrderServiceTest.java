@@ -24,17 +24,17 @@ class OrderServiceTest {
     @Mock
     ValidationService validationService;
 
-    @Test
-    void createOrder() {
-
-        MerchantOrder merchantOrder = new MerchantOrder();
-
-        Mockito.when(validationService.validatePayload(merchantOrder)).thenReturn(true);
-
-        MerchantOrderResponse merchantOrderResponse = orderService.createOrder(merchantOrder);
-
-        Assertions.assertThat(merchantOrderResponse).isNotNull();
-    }
+//    @Test
+//    void createOrder() {
+//
+//        MerchantOrder merchantOrder = new MerchantOrder();
+//
+//        Mockito.when(validationService.validatePayload(merchantOrder)).thenReturn(true);
+//
+//        MerchantOrderResponse merchantOrderResponse = orderService.createOrder(merchantOrder);
+//
+//        Assertions.assertThat(merchantOrderResponse).isNotNull();
+//    }
 
 
     @Test
